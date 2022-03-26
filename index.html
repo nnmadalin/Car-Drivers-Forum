@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>All for the cars!</title>
+		<link rel="icon" href="Image/icon.png" type="icon/png">
+		<link rel="stylesheet" href="css/style-index.css">
+		<meta charset="UTF-8">
+	</head>
+	<body background="Image/bkc.jpg" oncontextmenu="return false"> 
+        <script lang="text/javascript">
+            document.onkeydown = function (e) {
+                if (event.keyCode == 123) {
+                    return false;
+                }
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                    return false;
+                }
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                    return false;
+                }
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                    return false;
+                }
+                if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                    return false;
+                }
+            }
+        </script>
+        
+        <div class="main">
+            <div class="title">
+                <h1 class="titl">All for the cars!</h1>
+            </div>
+            
+            <div class="citat">
+                <h6 class="hcit">“Nu vei avea pană de cauciuc atâta timp cât ai o roată de rezervă în mașină”, Murphy<h6>
+            </div>
+
+            <div class="navigate">
+
+                <div class="sign">
+                    <button onclick="window.location.href='sign-in.php'" class="sgn">Înregistrează-te acum</button>
+                </div>
+
+
+                <div class="account">
+                    <button onclick="window.location.href='script/confirm.php'" class="acc">Contul meu</button>
+                </div>
+            
+            </div>
+
+        </div>
+
+    </body>
+</html>
+
+
+
+ 

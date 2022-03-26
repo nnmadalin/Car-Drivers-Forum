@@ -1,0 +1,54 @@
+html, body{
+    margin:0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media (min-width: 600px) {
+    .div_text {
+      width: 30%;
+    }
+}
+
+.div_show{
+    margin:0 auto;
+    padding-bottom: 100px;
+    padding: auto;
+    word-wrap:break-word;
+}
+
+.show_text{
+    background-color: red;
+    height: 600px;
+    
+    overflow-y: scroll;
+}
+
+.div_text{
+    width: 99%;
+    position: fixed;
+    bottom: 10px;
+}
+
+.text-add{
+    width: 80%;
+    padding: 10px;
+    padding-right: 1px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.bt-send{
+    width: 6%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    background-color: #f4511e;
+    border-radius: 10px;
+    resize: vertical;
+    font-family: 'FredokaOne-Regular', monospace;  
+    font-size: 15px;
+
+    color: white;
+}

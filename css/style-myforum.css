@@ -1,0 +1,221 @@
+body{
+    background-color: #ecf0f1;
+    
+  }
+  .meniu{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align:center;
+    border-bottom: 1px solid #c9cccd;
+  }
+  
+  .input_txt{
+    border: none;
+    box-shadow: none;
+    background-color: #b4b4b4;
+    color: #232424;
+    font-size: 14px;
+    padding: 8px 19px;
+    height: 30px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 10px;
+    
+  }
+  .fa{
+    float: left;
+    width: 70px;
+    margin-top: 10px;
+    padding: 10px;
+    background: #1abc9c;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  .fa:hover {
+    background: #0b7dda;
+  }
+  
+  .account{
+    float:right;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 50px;
+  }
+  .submeniu{
+    display: block;
+    cursor: pointer;
+  }
+  .actiuni{
+    height: 270px;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    background-color: #1abc9c;
+    color:white;
+    width: 150px;
+    display: none;
+    z-index: 9;
+  }
+  .main{
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .main:hover{
+    color: #202020;
+  }
+  .profil{
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  }
+  .profil:hover{
+    color: #202020;
+  }
+  .youform{
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  }
+  .youform:hover{
+    color: #202020;
+  }
+  .logout{
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  }
+  .logout:hover{
+    color: #202020;
+  }
+  .despartitor{
+  margin-bottom: 20px;
+  }
+  .despartitor1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+  .despartitor2{
+    margin-top: 20px;
+  }
+  
+  
+  
+  .div_show{
+    width: 70%;
+    padding-top: 80px;
+    margin:0 auto;
+  }
+
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    background-color: #1abc9c;
+    margin: 0 1.5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  
+  .color{
+    width: 5px;
+    height: 52px;
+    background-color: black;
+    float: left;
+    margin-right: 3px;
+  }
+  .color_down{
+    width: 5px;
+    height: 20px;
+    transform: rotate(90deg);
+    margin-top: 40px;
+    float: left;
+  }
+  .descp{
+    margin-left: 22px;
+    font-family: 'Open Sans Bold', sans-serif;
+    font-size: 15px;
+  }
+  .bt_redirect_form{
+    border-radius: 6px;
+    background-color: #1abc9c;
+    padding: 5px;
+    border-color: transparent;
+    font-size: 15px;
+    height: 40px;
+    border: none;
+    box-shadow: none;
+    color: #ffffff;
+    font-family: 'Open Sans Bold', sans-serif;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  .bt_redirect_form:hover {
+    background: #0b7dda;
+  }
+  .title-show{
+    font-family: 'Open Sans Bold', sans-serif;
+  }
+  
+ 
+  .aicautat{
+    font-family: 'Open Sans Bold', sans-serif;
+    font-size: 20px;
+    word-spacing: 3px;
+  }
+
+.bt-info-edit{
+    border-radius: 6px;
+    background-color: #a311cf;
+    padding: 10px;
+    border-color: transparent;
+    font-size: 15px;
+    height: 40px;
+    border: none;
+    box-shadow: none;
+    color: #ffffff;
+    font-family: 'Open Sans Bold', sans-serif;
+    cursor: pointer;
+}
+.bt-info-edit:hover {
+    background: #65ca6d;
+}
+
+.forum-info{
+  position: absolute;
+  width: 65%;
+  height: auto;
+  background-color: white;
+  font-family: 'Open Sans Bold', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.title{
+  
+}

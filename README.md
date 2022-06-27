@@ -1,7 +1,6 @@
 # Car-Drivers-Forum
 > Languages used: html, css, javascript, php
 
-## Provisional site: https://nnmadalin.ml/
 >>  version: 1.3
 
 ## Features
